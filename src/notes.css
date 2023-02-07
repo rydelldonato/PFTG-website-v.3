@@ -1,0 +1,158 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #545454;
+    background-color: #121618;
+  }
+  section{
+    padding: 0;
+    margin: 0;
+    background-color: #121618;
+  }
+  /* Header Styling */
+  header {
+    height: 252px;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+  .mainHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  /* Header Contact styling */
+  .contactDiv {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    text-align: left;
+    left: 50px;
+    width: 331px;
+    height: 252px;
+  }
+  .contactInfo {
+    position: relative;
+    top: 70px;
+    width: 331px;
+    height: 60px;
+    line-height: 1.5;
+    color: #545454;
+  }
+  .igLogo {
+    position: relative;
+    top: 70px;
+    margin-right: 10px;
+  }
+  #igLink {
+    text-decoration: none;
+    color: #dce4e8;
+  }
+  /* Header Logo styling */
+  .centerHeader {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 589px;
+    height: 252px;
+    text-align: center;
+    padding-left: 100px;
+  }
+  .logoPic {
+    width: 15%;
+    position: absolute;
+    /* left: 17px; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* margin-top: 5px; */
+    margin-left: auto;
+    /* margin: auto; */
+    margin-right: auto;
+    margin-top: 40px;
+    /* bottom: 4px; */
+    top: 1px;
+  }
+  /* Header NAV styling */
+  nav ul {
+    margin: 0;
+  }
+  ul.mainNav {
+    list-style-type: none;
+    display: inline-block;
+  }
+  .headerNav{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .mainNav li {
+    float: left;
+    margin: 0 7px;
+    margin-bottom: 35px;
+  }
+  .mainNav a {
+    color: #dce4e8;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0 29px 0;
+  }
+  .mainNav a:hover{
+    /* text-decoration: underline; */
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+  }
+  /* Header Doordash logo */
+  .innerDoordashDiv img{
+      width: 7%;
+      position: absolute;
+      top: 90px;
+      right: 70px;
+  }
+  /* Home page carousel styling  */
+  .carousel{
+    position: absolute;
+    top: 400px;
+    /* left: 25%;
+    right: 25%; */
+    height: 700px;
+    /* background-color: #121618; */
+    color: white;
+  }
+  .carousel-item{
+    height: 700px;
+    /* background-color: #121618; */
+  }
+  .carousel-inner {
+    box-shadow: none;
+    /* background-color: #121618; */
+  }
+  .innerCarouselDiv{
+    position: absolute;
+  }
+  .carouselSmallText{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+  }
+  /* Home pafe carousel styling for slide #1 */
+  .innerCarouselDiv1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 40%;
+    text-align: center;
+    font-size: 26px;
+    line-height: 26px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+  .innerCarouselDiv1 h3{
+    margin-bottom: 20px;
+  }
+  
+  
