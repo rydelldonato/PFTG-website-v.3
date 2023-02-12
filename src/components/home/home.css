@@ -358,7 +358,7 @@ p.right-item-innerText2{
 }
 
 .quickInfoDiv .p-2{
-  height: 325px;
+  height: 400px;
   margin: 25px 50px;
   text-align: center;
   padding: 0px;
@@ -374,13 +374,49 @@ p.right-item-innerText2{
   background-position: center;
 }
 /* Home page popular items div styling */
+.popularItemsDiv{
+  background-color: #121618;
+}
 #popularItemsHeading{
   text-align: center;
+  margin-bottom: 50px;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #dce4e8;
+  font-family: "PT Sans Narrow";
+  font-weight: 400;
+  padding-top: 100px;
 }
 .popularItemsInnerDiv .p-2{
   width: 274px;
-  height: 363px;
+  height: 491px;
+  color: #dce4e8;
+  text-align: center;
+  font-family: "PT Sans Narrow";
 }
 .popularItemsInnerDiv img{
   width: 100%;
+  padding-bottom: 40px;
+}
+.popularItemsInnerDiv h5{
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow";
+  text-align: center;
+}
+.popularItemsInnerDiv p.price{
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 3px;
+  margin-bottom: 45px;
+}
+.popularItemsInnerDiv p.popularItemsInfo{
+  font-size: 16px;
+  margin: 14px 0 18px 0;
+  line-height: 28px;
 }

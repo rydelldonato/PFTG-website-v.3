@@ -232,32 +232,58 @@ export default function Home() {
         <div className="popularItemsInnerDiv d-flex flex-row justify-content-evenly">
           <div className="p-2">
             <img src="/tacos.png" />
-            <p>Sisig Tacos</p>
-            <p>
+            <h5>Sisig Tacos</h5>
+            <p className="popularItemsInfo">
               A fusion of spicy Filipino pork/chicken and Mexican tacos, served
               on a tortilla with toppings like onion and cilantro.
             </p>
+            <p className="price">$ 15.00</p>
           </div>
           <div className="p-2">
             <img src="/over-rice.png" />
-            <p>Sisig Over Rice</p>
-            <p>
+            <h5>Sisig Over Rice</h5>
+            <p className="popularItemsInfo">
             Spicy, crispy diced or shredded pork/chicken, mixed with spices, onion, and vinegar, served over steaming hot rice.
             </p>
+            <p className="price">$ 15.00</p>
           </div>
           <div className="p-2">
             <img src="/bao.png" />
-            <p>Sisig Bao</p>
-            <p>
+            <h5>Sisig Bao</h5>
+            <p className="popularItemsInfo">
             The flavors of Filipino sisig with the soft and fluffy steamed bao buns of Chinese cuisine.
             </p>
+            <p className="price">$ 15.00</p>
           </div>
           <div className="p-2">
             <img src="/locomoco.png" />
-            <p>Loco Moco Lumpia</p>
-            <p>
-            Blends the classic Hawaiian Loco Moco, rice topped with a hamburger patty, gravy, and a fried egg, with the crispy and crunchy texture of traditional Filipino Lumpia, a delectable fried spring roll wrapper.
+            <h5>Loco Moco Lumpia</h5>
+            <p className="popularItemsInfo">
+            Blends the classic Hawaiian Loco Moco, with the crispy and crunchy texture of traditional Filipino Lumpia, a delectable fried spring roll wrapper.
             </p>
+            <p className="price">$ 15.00</p>
+          </div>
+        </div>
+      </div>
+      <div className="aboutPFTGDiv">
+        <div className="d-flex flex-row aboutPFTGDivInnerDiv">
+          <div className="aboutPFTGDivLeft">
+            <h1>
+              we are peachy's food to-go
+            </h1>
+            <h6>
+
+            </h6>
+            <img src="separator.png"/>
+            <p>
+
+            </p>
+            <p>
+
+            </p>
+          </div>
+          <div className="aboutPFTGDivRight">
+
           </div>
         </div>
       </div>
