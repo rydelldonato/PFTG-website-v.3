@@ -1,158 +1,386 @@
 html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #545454;
-    background-color: #121618;
-  }
-  section{
-    padding: 0;
-    margin: 0;
-    background-color: #121618;
-  }
-  /* Header Styling */
-  header {
-    height: 252px;
-    text-transform: uppercase;
-    font-family: "PT Sans Narrow", sans-serif;
-  }
-  .mainHeader {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  /* Header Contact styling */
-  .contactDiv {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    text-align: left;
-    left: 50px;
-    width: 331px;
-    height: 252px;
-  }
-  .contactInfo {
-    position: relative;
-    top: 70px;
-    width: 331px;
-    height: 60px;
-    line-height: 1.5;
-    color: #545454;
-  }
-  .igLogo {
-    position: relative;
-    top: 70px;
-    margin-right: 10px;
-  }
-  #igLink {
-    text-decoration: none;
-    color: #dce4e8;
-  }
-  /* Header Logo styling */
-  .centerHeader {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    width: 589px;
-    height: 252px;
-    text-align: center;
-    padding-left: 100px;
-  }
-  .logoPic {
-    width: 15%;
-    position: absolute;
-    /* left: 17px; */
-    position: absolute;
-    left: 0;
-    right: 0;
-    /* margin-top: 5px; */
-    margin-left: auto;
-    /* margin: auto; */
-    margin-right: auto;
-    margin-top: 40px;
-    /* bottom: 4px; */
-    top: 1px;
-  }
-  /* Header NAV styling */
-  nav ul {
-    margin: 0;
-  }
-  ul.mainNav {
-    list-style-type: none;
-    display: inline-block;
-  }
-  .headerNav{
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-  .mainNav li {
-    float: left;
-    margin: 0 7px;
-    margin-bottom: 35px;
-  }
-  .mainNav a {
-    color: #dce4e8;
-    text-decoration: none;
-    letter-spacing: 4px;
-    font-size: 14px;
-    font-weight: 400;
-    padding: 10px 0 29px 0;
-  }
-  .mainNav a:hover{
-    /* text-decoration: underline; */
-    border-bottom: 1px solid white;
-    padding-bottom: 10px;
-  }
-  /* Header Doordash logo */
-  .innerDoordashDiv img{
-      width: 7%;
-      position: absolute;
-      top: 90px;
-      right: 70px;
-  }
-  /* Home page carousel styling  */
-  .carousel{
-    position: absolute;
-    top: 100px;
-    /* left: 25%;
-    right: 25%; */
-    height: 700px;
-    /* background-color: #121618; */
-    color: white;
-  }
-  .carousel-item{
-    height: 700px;
-    /* background-color: #121618; */
-  }
-  .carousel-inner {
-    box-shadow: none;
-    /* background-color: #121618; */
-  }
-  .innerCarouselDiv{
-    position: absolute;
-  }
-  .carouselSmallText{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-  }
-  /* Home pafe carousel styling for slide #1 */
-  .innerCarouselDiv1{
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 40%;
-    text-align: center;
-    font-size: 26px;
-    line-height: 26px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-family: "PT Sans Narrow", sans-serif;
-  }
-  .innerCarouselDiv1 h3{
-    margin-bottom: 20px;
-  }
-  
-  
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #545454;
+  background-color: #121618;
+}
+section {
+  padding: 0;
+  margin: 0;
+  background-color: #121618;
+}
+/* Header Styling */
+header {
+  height: 252px;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.mainHeader {
+  background-color: #121618;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* Header Contact styling */
+.contactDiv {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  text-align: left;
+  left: 50px;
+  width: 331px;
+  height: 252px;
+}
+.contactInfo {
+  position: relative;
+  top: 70px;
+  width: 331px;
+  height: 60px;
+  line-height: 1.5;
+  color: #545454;
+}
+.igLogo {
+  position: relative;
+  top: 70px;
+  margin-right: 10px;
+}
+#igLink {
+  text-decoration: none;
+  color: #dce4e8;
+}
+/* Header Logo styling */
+.centerHeader {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 589px;
+  height: 252px;
+  text-align: center;
+  padding-left: 100px;
+}
+.logoPic {
+  width: 15%;
+  position: absolute;
+  /* left: 17px; */
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* margin-top: 5px; */
+  margin-left: auto;
+  /* margin: auto; */
+  margin-right: auto;
+  margin-top: 40px;
+  /* bottom: 4px; */
+  top: 1px;
+}
+/* Header NAV styling */
+nav ul {
+  margin: 0;
+}
+ul.mainNav {
+  list-style-type: none;
+  display: inline-block;
+}
+.headerNav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.mainNav li {
+  float: left;
+  margin: 0 7px;
+  margin-bottom: 35px;
+}
+.mainNav a {
+  color: #dce4e8;
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 0 29px 0;
+}
+.mainNav a:hover {
+  /* text-decoration: underline; */
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+/* Header Doordash logo */
+.innerDoordashDiv img {
+  width: 7%;
+  position: absolute;
+  top: 90px;
+  right: 70px;
+}
+/* Home page carousel styling  */
+.carousel {
+  height: 700px;
+  /* background-color: #121618; */
+  color: white;
+}
+.carousel-item {
+  height: 700px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+}
+.carousel-item.active{
+  cursor: grabbing;
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  z-index: 0;
+}
+
+.carousel-fade .carousel-item.active {
+  z-index: 1;
+  opacity: 1;
+}
+.carousel-inner {
+  box-shadow: none;
+  /* background-color: #121618; */
+}
+.innerCarouselDiv {
+  position: absolute;
+}
+.carouselSmallText {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+}
+/* Home page carousel styling for slide #1 */
+.innerCarouselDiv1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 40%;
+  text-align: center;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.innerCarouselDiv1 h3 {
+  margin-bottom: 20px;
+}
+/* Home page carousel styling for slide #2 */
+.carousel-text {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 65%;
+  line-height: 2;
+}
+h1 {
+  margin-bottom: 70px;
+  text-transform: uppercase;
+}
+div.carousel-text {
+  width: 450px;
+  letter-spacing: 2px;
+}
+.carousel-innerText {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+.carousel-heading {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+}
+.carousel-img{
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 80px;
+  margin: auto;
+}
+img#tacos{
+  width: 400px;
+  border-radius: 50% 50% 50% 50% / 51% 48% 52% 49% ;
+}
+/* Home page carousel styling for slide #3 */
+#carousel-slide-3.d-flex{
+  position: absolute;
+  top: 30px;
+  padding-left: 80px;
+  padding-right: 150px;
+}
+.left-item{
+ margin-right: 20px;
+}
+.left-item-innerText{
+  margin-top: 240px;
+}
+.left-item-innerText h1{
+  padding: 0;
+  margin-bottom: 25px;
+  font-size: 60px;
+  line-height: 40px;
+  letter-spacing: 8px;
+  font-family: "PT Sans Narrow";
+}
+.left-item-innerText p{
+  border-bottom: 3px solid #ffffff;
+  font-family: "PT Sans Narrow";
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 6px;
+  padding-bottom: 20px;
+}
+p.left-item-innerText2{
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 27px;
+}
+.left-item button{
+  margin-right: 16px;
+  border: solid 2px;
+  font-family: "PT Sans Narrow";
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 6px 14px 6px 17px;
+}
+
+.right-item img{
+  padding-top: 100px;
+  border-radius: 50% 50% 50% 50% / 51% 48% 52% 49% ;
+}
+/* Home page carousel styling for slide #4 */
+.carousel-text {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 65%;
+  line-height: 2;
+}
+h1 {
+  margin-bottom: 70px;
+  text-transform: uppercase;
+}
+div.carousel-text {
+  width: 450px;
+  letter-spacing: 2px;
+}
+.carousel-innerText {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+.carousel-heading {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+}
+.carousel-img{
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.carousel-img img{
+  width: 300px;
+}
+/* Home page carousel styling for slide #5 */
+#carousel-slide-5.d-flex{
+  position: absolute;
+  top: 30px;
+  padding-left: 80px;
+  padding-right: 150px;
+}
+.right-item{
+ margin-right: 20px;
+}
+.right-item-innerText{
+  margin-top: 240px;
+}
+.right-item-innerText h1{
+  padding: 0;
+  margin-bottom: 25px;
+  font-size: 60px;
+  line-height: 40px;
+  letter-spacing: 8px;
+  font-family: "PT Sans Narrow";
+}
+.right-item-innerText p{
+  border-bottom: 3px solid #ffffff;
+  font-family: "PT Sans Narrow";
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 6px;
+  padding-bottom: 20px;
+}
+p.right-item-innerText2{
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 27px;
+}
+.right-item button{
+  margin-right: 16px;
+  border: solid 2px;
+  font-family: "PT Sans Narrow";
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 6px 14px 6px 17px;
+}
+
+.left-item img{
+  padding-top: 100px;
+  border-radius: 10% / 50%;
+}
+/* Home page quick info div styling */
+.quickInfoDiv.d-flex{
+  margin-right: 80px;
+  margin-left: 10px;
+}
+
+.quickInfoDiv .p-2{
+  height: 325px;
+  margin: 25px 50px;
+  text-align: center;
+  padding: 0px;
+}
+.quickInfoDiv .p-2 p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+#quickInfo{
+  background-image: url("/public/d06b4a96910357.5eb96523a7411.jpg");
+  background-size:contain;
+  background-position: center;
+}
+/* Home page popular items div styling */
+#popularItemsHeading{
+  text-align: center;
+}
+.popularItemsInnerDiv .p-2{
+  width: 274px;
+  height: 363px;
+}
+.popularItemsInnerDiv img{
+  width: 100%;
+}
