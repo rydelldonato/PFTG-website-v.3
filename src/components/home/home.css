@@ -553,3 +553,8 @@ div.igFeed img{
  margin: 0 auto;
  width: 100vw;
 }
+div#curator-feed-default-feed-layout{
+  margin-top: 0;
+  padding-top: 0;
+  justify-content: center;
+}
