@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./home.css";
+import ScrollButton from '../scrollButton/scrollButton';
+
 
 export default function Home() {
+
+  const [autoplay, setAutoplay] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const trigger = document.querySelector('.igFeed').getBoundingClientRect().top;
+      if (trigger <= 0) {
+        setAutoplay(true);
+        window.removeEventListener('scroll', onScroll);
+      }
+    };
+    window.addEventListener('scroll', onScroll);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+    };
+  }, []);
+
   return (
     <>
       <header>
+      <ScrollButton />
         <div className="mainHeader">
           <div className="contactDiv">
             <div className="igLogo">
@@ -265,27 +285,54 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div id="aboutPFTGDiv">
       <div className="aboutPFTGDiv">
         <div className="d-flex flex-row aboutPFTGDivInnerDiv">
-          <div className="aboutPFTGDivLeft">
+          <div className="aboutPFTGDivLeft p-2">
             <h1>
               we are peachy's food to-go
             </h1>
             <h6>
-
+            We believe that food is a celebration of culture, and it is our goal to share our love for Filipino cuisine with each and every one of our customers.
             </h6>
             <img src="separator.png"/>
             <p>
-
+            At Peachy's food to go, we are dedicated to bringing the authentic flavors and culinary traditions of the Philippines to your plate.
             </p>
             <p>
-
+            Our purpose is to preserve and promote the rich culinary heritage of the Philippines through authentic, delicious, and accessible food experiences. We are committed to continuously exploring new ways to showcase the rich and diverse flavors of the Philippines.
             </p>
           </div>
-          <div className="aboutPFTGDivRight">
-
+          <div className="aboutPFTGDivRight p-2">
+            <p>
+              "The Sisig fries were so delicious! The special sauce that is added on top had such a unique taste and the flavors of the dish were so yummy. very great food..definitely recommend!!!!"
+            </p>
+            <div className="d-flex reviewDiv">
+            <img class="review" src="feReview.png"/>
+              Fe D<br></br>Doordash Review
+            </div>
+            <p>
+              "The food here is amazing! I have never had any Filipino Fusion food as good as this! Highly Recommend!!"
+            </p>
+            <div className="d-flex reviewDiv">
+              <img className="review" src="adrizzyReview.png" />
+            Adrizzy P<br></br>Doorash Review
+            <div>
+            </div>
+            </div>
           </div>
         </div>
+      </div>
+      </div>
+      <div className="igFeed">
+        <h6><img src="3d-ig-logo.png" alt="igLogo"/>Peachy's Food To Go</h6>
+        <h1>Follow us on our Instagram</h1>
+        <img src="zigZag.png"/>
+      <video className="video-foreground" autoPlay={autoplay}>
+        <source src="ig-reel-bg.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
       </div>
     </>
   );
