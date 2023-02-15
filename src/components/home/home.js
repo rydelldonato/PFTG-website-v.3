@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 import "./home.css";
 import ScrollButton from '../scrollButton/scrollButton';
 import DoordashButton from "../doordashButton/doordashButton";
@@ -39,19 +40,19 @@ export default function Home() {
             <nav className="headerNav">
               <ul className="mainNav">
                 <li>
-                  <a href="#">home</a>
+                  <Link to="/home">home</Link>
                 </li>
                 <li>
-                  <a href="#">menu</a>
+                  <Link to="/menu">menu</Link>
                 </li>
                 <li>
-                  <a href="#">services</a>
+                  <Link to="/services">services</Link>
                 </li>
                 <li>
-                  <a href="#">about</a>
+                  <Link to="/about">about</Link>
                 </li>
                 <li>
-                  <a href="#">contact</a>
+                  <Link to="/contact">contact</Link>
                 </li>
               </ul>
             </nav>
