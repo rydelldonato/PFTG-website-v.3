@@ -35,37 +35,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <script>
-      (function (e, t, r, n) {
-        var o, c, s;
-        (o = e.document),
-          (c = t.children[0]),
-          (s = o.createElement("script")),
-          (e.StorefrontSDKObject = "StorefrontSDK"),
-          (e[e.StorefrontSDKObject] = {
-            executeCommand: function (t, r) {
-              e[e.StorefrontSDKObject].buffer.push([t, r]);
-            },
-            buffer: [],
-          }),
-          (s.async = 1),
-          (s.src =
-            "https://web-apps.cdn4dd.com/webapps/sdk-storefront/latest/sdk.js"),
-          t.insertBefore(s, c);
-      })(window, document.head);
-      StorefrontSDK.executeCommand("renderFloatingButton", {
-        businessId: 24686955,
-        businessSlug: "peachy's-food-to-go-llc-stockton",
-        floatingBar: true,
-        position: "bottom",
-        buttonAlignment: "center",
-        backgroundColor: "transparent",
-        buttonBackgroundColor: "rgb(254, 48, 8)",
-        borderColor: "transparent",
-        buttonWidth:"500px",
-        buttonText: "Order Pickup & Delivery | M-W 12 - 6pm, TH-F 12 - 2pm",
-      });
-    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

@@ -1,28 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
 import ScrollButton from '../scrollButton/scrollButton';
+import DoordashButton from "../doordashButton/doordashButton";
+import Footer from "../footer/footer";
 
 
 export default function Home() {
 
-  const [autoplay, setAutoplay] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => {
-      const trigger = document.querySelector('.igFeed').getBoundingClientRect().top;
-      if (trigger <= 0) {
-        setAutoplay(true);
-        window.removeEventListener('scroll', onScroll);
-      }
-    };
-    window.addEventListener('scroll', onScroll);
-    return () => {
-      window.removeEventListener('scroll', onScroll);
-    };
-  }, []);
-
   return (
     <>
+      <DoordashButton/>
       <header>
       <ScrollButton />
         <div className="mainHeader">
@@ -327,12 +314,11 @@ export default function Home() {
       <div className="igFeed">
         <h6><img src="3d-ig-logo.png" alt="igLogo"/>Peachy's Food To Go</h6>
         <h1>Follow us on our Instagram</h1>
-        <img src="zigZag.png"/>
-      <video className="video-foreground" autoPlay={autoplay}>
-        <source src="ig-reel-bg.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+        <img id="zigzag" src="zigZag.png"/>
+        <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+      </div>
+      <div>
+      <Footer/>
       </div>
     </>
   );
