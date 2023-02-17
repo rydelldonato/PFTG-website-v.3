@@ -1,3 +1,12 @@
+/* General styling */
+div.mainContent{
+  background-color: #121618;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #dce4e8;
+}
+/* Discover our menu styling */
 .discoverOurMenu {
   width: 100%;
   height: 240px;
@@ -20,4 +29,46 @@
   background-color: rgba(104, 190, 104,0.82);
   padding-top: 100px;
   padding-bottom: 30px;
+}
+
+/* deliveryProcess styling */
+div#deliveryProcess{
+  font-family: "PT Sans Narrow";
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  justify-content: center;
+  padding-top: 75px;
+  margin-bottom: 75px;
+}
+#deliveryProcess .p-2{
+  margin-right: 60px;
+}
+#deliveryProcess p{
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 16px;
+}
+#deliveryProcess img{
+  padding-bottom: 25px;
+}
+#deliveryProcess h5{
+  padding-bottom: 15px;
+}
+/* menu styling */
+div#menu.d-flex{
+  flex-wrap: wrap;
+  width: 100%;
+  height: 1172px;
+  justify-content: center;
+}
+#menu.d-flex .p-2{
+  width: 262px;
+  height: 345px;
+  margin-right: 60px;
+}
+#menu.d-flex .p-2 img{
+  width: 100%;
 }
