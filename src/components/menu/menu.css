@@ -1,0 +1,23 @@
+.discoverOurMenu {
+  width: 100%;
+  height: 240px;
+  /* padding-top: 21px; */
+  /* padding-bottom: 23px; */
+  background-image: url("/public/tacoPresentation.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.discoverOurMenu h1 {
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: "PT Sans Narrow";
+  font-weight: 400;
+}
+.discoverOurMenuInnerDiv{
+  background-color: rgba(104, 190, 104,0.82);
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
