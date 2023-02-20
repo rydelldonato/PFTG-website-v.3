@@ -41,7 +41,8 @@ div#deliveryProcess{
   text-transform: uppercase;
   justify-content: center;
   padding-top: 75px;
-  margin-bottom: 75px;
+  padding-left: 50px;
+  margin-bottom: 8px;
 }
 #deliveryProcess .p-2{
   margin-right: 60px;
@@ -71,4 +72,10 @@ div#menu.d-flex{
 }
 #menu.d-flex .p-2 img{
   width: 100%;
+}
+hr{
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
 }

@@ -4,6 +4,7 @@ html {
   line-height: 1.5;
   color: #545454;
   background-color: #121618;
+  box-sizing: border-box;
 }
 section {
   padding: 0;
@@ -12,7 +13,7 @@ section {
 }
 /* Header Styling */
 header {
-  height: 252px;
+  height: 25vh;
   text-transform: uppercase;
   font-family: "PT Sans Narrow", sans-serif;
 }
@@ -128,7 +129,7 @@ ul.mainNav {
   -webkit-user-drag: none;
   -webkit-touch-callout: none;
 }
-.carousel-item.active{
+.carousel-item.active {
   cursor: grabbing;
 }
 
@@ -199,7 +200,7 @@ div.carousel-text {
   line-height: 32px;
   font-weight: 300;
 }
-.carousel-img{
+.carousel-img {
   position: absolute;
   text-align: center;
   left: 0;
@@ -207,24 +208,24 @@ div.carousel-text {
   top: 80px;
   margin: auto;
 }
-img#tacos{
+img#tacos {
   width: 400px;
-  border-radius: 50% 50% 50% 50% / 51% 48% 52% 49% ;
+  border-radius: 50% 50% 50% 50% / 51% 48% 52% 49%;
 }
 /* Home page carousel styling for slide #3 */
-#carousel-slide-3.d-flex{
+#carousel-slide-3.d-flex {
   position: absolute;
   top: 30px;
   padding-left: 80px;
   padding-right: 150px;
 }
-.left-item{
- margin-right: 20px;
+.left-item {
+  margin-right: 20px;
 }
-.left-item-innerText{
+.left-item-innerText {
   margin-top: 240px;
 }
-.left-item-innerText h1{
+.left-item-innerText h1 {
   padding: 0;
   margin-bottom: 25px;
   font-size: 60px;
@@ -232,7 +233,7 @@ img#tacos{
   letter-spacing: 8px;
   font-family: "PT Sans Narrow";
 }
-.left-item-innerText p{
+.left-item-innerText p {
   border-bottom: 3px solid #ffffff;
   font-family: "PT Sans Narrow";
   font-size: 30px;
@@ -240,14 +241,14 @@ img#tacos{
   letter-spacing: 6px;
   padding-bottom: 20px;
 }
-p.left-item-innerText2{
+p.left-item-innerText2 {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
   line-height: 30px;
   letter-spacing: 2px;
   margin-bottom: 27px;
 }
-.left-item button{
+.left-item button {
   margin-right: 16px;
   border: solid 2px;
   font-family: "PT Sans Narrow";
@@ -257,9 +258,9 @@ p.left-item-innerText2{
   padding: 6px 14px 6px 17px;
 }
 
-.right-item img{
+.right-item img {
   padding-top: 100px;
-  border-radius: 50% 50% 50% 50% / 51% 48% 52% 49% ;
+  border-radius: 50% 50% 50% 50% / 51% 48% 52% 49%;
 }
 /* Home page carousel styling for slide #4 */
 .carousel-text {
@@ -291,30 +292,30 @@ div.carousel-text {
   line-height: 32px;
   font-weight: 300;
 }
-.carousel-img{
+.carousel-img {
   position: absolute;
   text-align: center;
   left: 0;
   right: 0;
   margin: auto;
 }
-.carousel-img img{
+.carousel-img img {
   width: 300px;
 }
 /* Home page carousel styling for slide #5 */
-#carousel-slide-5.d-flex{
+#carousel-slide-5.d-flex {
   position: absolute;
   top: 30px;
   padding-left: 80px;
   padding-right: 150px;
 }
-.right-item{
- margin-right: 20px;
+.right-item {
+  margin-right: 20px;
 }
-.right-item-innerText{
+.right-item-innerText {
   margin-top: 240px;
 }
-.right-item-innerText h1{
+.right-item-innerText h1 {
   padding: 0;
   margin-bottom: 25px;
   font-size: 60px;
@@ -322,7 +323,7 @@ div.carousel-text {
   letter-spacing: 8px;
   font-family: "PT Sans Narrow";
 }
-.right-item-innerText p{
+.right-item-innerText p {
   border-bottom: 3px solid #ffffff;
   font-family: "PT Sans Narrow";
   font-size: 30px;
@@ -330,14 +331,14 @@ div.carousel-text {
   letter-spacing: 6px;
   padding-bottom: 20px;
 }
-p.right-item-innerText2{
+p.right-item-innerText2 {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
   line-height: 30px;
   letter-spacing: 2px;
   margin-bottom: 27px;
 }
-.right-item button{
+.right-item button {
   margin-right: 16px;
   border: solid 2px;
   font-family: "PT Sans Narrow";
@@ -347,39 +348,39 @@ p.right-item-innerText2{
   padding: 6px 14px 6px 17px;
 }
 
-.left-item img{
+.left-item img {
   padding-top: 100px;
   border-radius: 10% / 50%;
 }
 /* Home page quick info div styling */
-.quickInfoDiv.d-flex{
+.quickInfoDiv.d-flex {
   padding-right: 80px;
   padding-left: 10px;
-  background: rgba(15,123,7,0.82);
-    overflow: hidden;
+  background: rgba(15, 123, 7, 0.82);
+  overflow: hidden;
 }
 
-.quickInfoDiv .p-2{
+.quickInfoDiv .p-2 {
   height: 400px;
   margin: 25px 50px;
   text-align: center;
   padding: 0px;
 }
-.quickInfoDiv .p-2 p{
+.quickInfoDiv .p-2 p {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
 }
 
-#quickInfo{
+#quickInfo {
   background-image: url("/public/d06b4a96910357.5eb96523a7411.jpg");
-  background-size:contain;
+  background-size: contain;
   background-position: center;
 }
 /* Home page popular items div styling */
-.popularItemsDiv{
+.popularItemsDiv {
   background-color: #121618;
 }
-#popularItemsHeading{
+#popularItemsHeading {
   text-align: center;
   margin-bottom: 50px;
   font-size: 32px;
@@ -391,18 +392,18 @@ p.right-item-innerText2{
   font-weight: 400;
   padding-top: 100px;
 }
-.popularItemsInnerDiv .p-2{
+.popularItemsInnerDiv .p-2 {
   width: 274px;
   height: 491px;
   color: #dce4e8;
   text-align: center;
   font-family: "PT Sans Narrow";
 }
-.popularItemsInnerDiv img{
+.popularItemsInnerDiv img {
   width: 100%;
   padding-bottom: 40px;
 }
-.popularItemsInnerDiv h5{
+.popularItemsInnerDiv h5 {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 4px;
@@ -411,29 +412,29 @@ p.right-item-innerText2{
   font-family: "PT Sans Narrow";
   text-align: center;
 }
-.popularItemsInnerDiv p.price{
+.popularItemsInnerDiv p.price {
   font-size: 24px;
   line-height: 26px;
   letter-spacing: 3px;
   margin-bottom: 45px;
 }
-.popularItemsInnerDiv p.popularItemsInfo{
+.popularItemsInnerDiv p.popularItemsInfo {
   font-size: 16px;
   margin: 14px 0 18px 0;
   line-height: 28px;
 }
 /* aboutPFTGDiv div styling */
-#aboutPFTGDiv{
+#aboutPFTGDiv {
   background-image: url("/public/tacoPresentation.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-.aboutPFTGDiv{
-  background: rgba(104, 190, 104,0.82);
+.aboutPFTGDiv {
+  background: rgba(104, 190, 104, 0.82);
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.aboutPFTGDiv h1{
+.aboutPFTGDiv h1 {
   margin-bottom: 43px;
   margin-top: 43px;
   font-size: 40px;
@@ -444,7 +445,7 @@ p.right-item-innerText2{
   word-wrap: break-word;
   font-family: "PT Sans Narrow";
 }
-.aboutPFTGDiv h6{
+.aboutPFTGDiv h6 {
   margin-bottom: 40px;
   line-height: 32px;
   font-size: 16px;
@@ -460,7 +461,7 @@ p.right-item-innerText2{
   height: 9px;
   margin: 0 0 40px;
 }
-.aboutPFTGDiv .aboutPFTGDivLeft p{
+.aboutPFTGDiv .aboutPFTGDivLeft p {
   margin: 18px 0;
   padding: 0;
   font-family: "Open Sans";
@@ -469,10 +470,10 @@ p.right-item-innerText2{
   font-weight: 500;
   color: #121618;
 }
-p.review{
+p.review {
   border-color: red;
 }
-.aboutPFTGDiv .aboutPFTGDivRight p{
+.aboutPFTGDiv .aboutPFTGDivRight p {
   border-color: #252c30;
   border: 2px solid;
   padding: 18px 28px 21px;
@@ -491,7 +492,7 @@ p.review{
   line-height: 28px;
   font-weight: 300;
 }
-div.reviewDiv{
+div.reviewDiv {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -505,20 +506,19 @@ div.reviewDiv{
   font-weight: 400;
   text-transform: uppercase;
   color: rgb(18, 22, 24);
-  
 }
-img.review{
+img.review {
   width: 40%;
   height: 40%;
   margin-right: 10px;
   padding-top: 10px;
 }
-img.review{
+img.review {
   width: 40%;
   height: 40%;
 }
 /* aboutPFTGDiv div styling */
-div.igFeed{
+div.igFeed {
   padding-top: 82px;
   padding-bottom: 82px;
   font-weight: 400;
@@ -527,17 +527,16 @@ div.igFeed{
   text-align: center;
   font-family: "PT Sans Narrow";
   color: #dce4e8;
-  background-color:#121618;
+  background-color: #121618;
 }
-div.igFeed h6{
+div.igFeed h6 {
   margin-bottom: 22px;
   line-height: 16px;
   font-size: 16px;
   letter-spacing: 3px;
   padding-right: 40px;
-
 }
-div.igFeed h1{
+div.igFeed h1 {
   padding-left: 10px;
   font-size: 40px;
   line-height: 40px;
@@ -545,14 +544,19 @@ div.igFeed h1{
   margin-top: 0;
   margin-bottom: 20px;
 }
-div.igFeed img#zigzag{
+div.igFeed img#zigzag {
   margin-bottom: 20px;
   height: 50%;
 }
 
-div#curator-feed-default-feed-layout{
+div#curator-feed-default-feed-layout {
   margin-top: 0;
   padding-top: 0;
   justify-content: center;
   padding-left: 10px;
+}
+
+/**********  MEDIA QUERIES: MOBILE PHONES  ************/
+@media (max-width: 767px) {
+  
 }

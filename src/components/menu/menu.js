@@ -29,6 +29,7 @@ export default function Menu() {
             <p>Your meal, delivered in around 45 minutes.</p>
           </div>
         </div>
+        <hr/>
         <div>
           <div id="menu" className="d-flex flex-row">
             <div className="p-2">
@@ -43,13 +44,11 @@ export default function Menu() {
               <p>$ 12.99</p>
             </div>
             <div className="p-2">
-              <img src="fries.png" />
-              <h5>Sisig Fries</h5>
+              <img src="over-rice.png" />
+              <h5>Sisig Over Rice</h5>
               <p>
-                Shoestring fries topped with pork or chicken sautéed in onions,
-                garlic, vinegar, and soy sauce (sisig). Topped with cabbage,
-                garlic chips, sriracha, jalapeños, and special house made
-                cilantro base sauce.
+              Garlic rice topped with pork or chicken sautéed in onions, garlic, vinegar, and soy sauce (sisig). Topped with cabbage, garlic chips, sriracha, jalapeños, and special house made cilantro base sauce
+              Sunny side up egg extra $2.
               </p>
               <p>$ 12.99</p>
             </div>
