@@ -4,7 +4,6 @@ html {
   line-height: 1.5;
   color: #545454;
   background-color: #121618;
-  box-sizing: border-box;
 }
 section {
   padding: 0;
@@ -13,7 +12,7 @@ section {
 }
 /* Header Styling */
 header {
-  height: 25vh;
+  height: 252px;
   text-transform: uppercase;
   font-family: "PT Sans Narrow", sans-serif;
 }
@@ -185,7 +184,7 @@ h1 {
   text-transform: uppercase;
 }
 div.carousel-text {
-  width: 450px;
+  width: 100%;
   letter-spacing: 2px;
 }
 .carousel-innerText {
@@ -209,14 +208,14 @@ div.carousel-text {
   margin: auto;
 }
 img#tacos {
-  width: 400px;
+  width: auto;
   border-radius: 50% 50% 50% 50% / 51% 48% 52% 49%;
 }
 /* Home page carousel styling for slide #3 */
 #carousel-slide-3.d-flex {
   position: absolute;
   top: 30px;
-  padding-left: 80px;
+  padding-left: 0;
   padding-right: 150px;
 }
 .left-item {
@@ -277,7 +276,7 @@ h1 {
   text-transform: uppercase;
 }
 div.carousel-text {
-  width: 450px;
+  width: 100%;
   letter-spacing: 2px;
 }
 .carousel-innerText {
@@ -558,5 +557,139 @@ div#curator-feed-default-feed-layout {
 
 /**********  MEDIA QUERIES: MOBILE PHONES  ************/
 @media (max-width: 767px) {
-  
+  * {
+    box-sizing: content-box;
+  }
+  .p-2 {
+    padding: 0 !important;
+  }
+  h1 {
+    letter-spacing: 8px;
+  }
+  .logoPic {
+    width: 35%;
+    position: absolute;
+    /* left: 17px; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* margin-top: 5px; */
+    margin-left: auto;
+    /* margin: auto; */
+    margin-right: auto;
+    margin-top: 40px;
+    /* bottom: 4px; */
+    top: 1px;
+  }
+  .contactDiv {
+    display: block;
+    position: relative;
+    text-align: left;
+    left: 50px;
+    width: 331px;
+    height: 252px;
+  }
+  .headerNav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 216px;
+    margin: auto;
+  }
+  img#tacos {
+    width: 70%;
+    margin-top: 100px;
+    border-radius: 50% 50% 50% 50% / 51% 48% 52% 49%;
+  }
+  div.carousel-text {
+    width: 90%;
+    letter-spacing: 2px;
+  }
+  #carousel-slide-3.d-flex {
+    position: absolute;
+    top: 12px;
+    /* padding-left: 80px; */
+    padding-right: 150px;
+    width: 100%;
+    text-align: center;
+  }
+  #carousel-slide-3 {
+    flex-direction: row !important;
+  }
+  .left-item-innerText h1 {
+    font-size: 40px;
+  }
+  .left-item-innerText p,
+  p.left-item-innerText2 {
+    font-size: 100%;
+  }
+  .left-item {
+    width: 100%;
+    margin-left: 40px;
+  }
+  .right-item img {
+    /* padding-top: 100px; */
+    position: absolute;
+    bottom: -23px;
+    width: 50%;
+    left: 68px;
+    border-radius: 50% 50% 50% 50% / 51% 48% 52% 49%;
+  }
+  #carousel-slide-5.d-flex {
+    /* position: absolute;
+    top: 30px;
+    padding-left: 80px;
+    padding-right: 150px;
+    width: 100%; */
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .left-item img {
+    /* padding-top: 100px; */
+    width: 85%;
+    border-radius: 50% / 50%;
+    padding-top: 0px;
+  }
+  .right-item-innerText {
+    margin-top: 12px;
+    width: 100%;
+    text-align: center;
+  }
+  .right-item {
+    /* margin-right: 20px; */
+    width: 100%;
+    position: absolute;
+    top: 20vh;
+    left: 1vw;
+  }
+  .right-item-innerText p {
+    border-bottom: 3px solid #ffffff;
+    font-family: "PT Sans Narrow";
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 0px;
+    letter-spacing: 6px;
+    padding-bottom: 3px;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  p.right-item-innerText2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 19px;
+    text-align: center;
+  }
+  .right-item-innerText h1 {
+    padding: 0;
+    margin-bottom: 0px;
+    font-size: 38px;
+    line-height: 60px;
+    letter-spacing: 8px;
+    font-family: "PT Sans Narrow";
+  }
+  .bookViewButtons {
+    text-align: center;
+  }
 }

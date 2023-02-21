@@ -15,7 +15,8 @@ export default function Home() {
       <div
         id="carouselExampleControls"
         className="carousel slide carousel-fade"
-        data-bs-ride="carousel"
+        // data-bs-ride="carousel"
+        data-interval="false"
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -25,7 +26,7 @@ export default function Home() {
               <p className="carouselSmallText">A filipina owned business</p>
               <button>View menu</button>
             </div>
-            <img src="/allFood.jpeg" className="d-block w-100" alt="..." />
+            <img src="/allFood.jpeg" className="d-block" alt="..." />
           </div>
           <div className="carousel-item">
             <div className="carousel-img">
@@ -40,7 +41,7 @@ export default function Home() {
             </div>
             <img
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
-              className="d-block w-100"
+              className="d-block"
               alt="..."
             />
           </div>
@@ -79,7 +80,7 @@ export default function Home() {
             </div>
             <img
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
-              className="d-block w-100"
+              className="d-block"
               alt="..."
             />
           </div>
@@ -107,7 +108,7 @@ export default function Home() {
                     with a sweet and tangy dipping sauce.
                   </p>
                 </div>
-                <div>
+                <div className="bookViewButtons">
                   <button type="button" className="btn btn-outline-light">
                     Book now {">"}
                   </button>
@@ -119,7 +120,7 @@ export default function Home() {
             </div>
             <img
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
-              className="d-block w-100"
+              className="d-block"
               alt="..."
             />
           </div>
