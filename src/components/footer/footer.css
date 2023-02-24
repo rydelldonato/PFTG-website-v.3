@@ -43,3 +43,20 @@ ul.footerNav {
   border-bottom: 1px solid white;
   padding-bottom: 10px;
 }
+
+@media (max-width: 767px) {
+  .innerFooter {
+    margin-left: 0;
+    justify-content: center;
+  }
+  .footerNav a {
+    color: #dce4e8;
+    text-decoration: none;
+    letter-spacing: 0;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .innerFooter .p-2{
+    text-align: center;
+  }
+}

@@ -4,8 +4,23 @@ button#doordash {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(254, 48, 8);
-  width: 500px;
+  width: 90%;
   border-color: transparent;
   z-index: 100;
   border-radius: 25px;
+}
+
+@media (max-width: 767px) {
+  button#doordash {
+    font-size: 80%;
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(254, 48, 8);
+    width: 80%;
+    border-color: transparent;
+    z-index: 100;
+    border-radius: 25px;
+  }
 }
