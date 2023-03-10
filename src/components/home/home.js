@@ -15,7 +15,7 @@ export default function Home() {
       <div
         id="carouselExampleControls"
         className="carousel slide carousel-fade"
-        data-bs-ride="carousel"
+        // data-bs-ride="carousel"
         data-interval="false"
       >
         <div className="carousel-inner">

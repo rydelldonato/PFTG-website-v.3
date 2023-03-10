@@ -625,12 +625,15 @@ div#curator-feed-default-feed-layout {
   }
   .left-item {
     width: 100%;
-    margin-left: 40px;
+    padding-left: 20px;
+    margin-top: -115px;
+    margin-left: 35px;
+    text-align: center;
   }
   .right-item img {
     /* padding-top: 100px; */
     position: absolute;
-    bottom: -131px;
+    bottom: -87px;
     width: 50%;
     left: 68px;
     border-radius: 50% 50% 50% 50% / 51% 48% 52% 49%;
@@ -647,9 +650,8 @@ div#curator-feed-default-feed-layout {
   .left-item img {
     /* padding-top: 100px; */
     width: 85%;
-    border-radius: 50% / 50%;
-    padding-top: 0px;
   }
+
   .right-item-innerText {
     margin-top: 12px;
     width: 100%;
@@ -659,7 +661,7 @@ div#curator-feed-default-feed-layout {
     /* margin-right: 20px; */
     width: 100%;
     position: absolute;
-    top: 20vh;
+    top: 26vh;
     left: 1vw;
   }
   .right-item-innerText p {
