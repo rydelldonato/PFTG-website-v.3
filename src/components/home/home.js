@@ -1,8 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./home.css";
-import ScrollButton from '../scrollButton/scrollButton';
-import DoordashButton from "../doordashButton/doordashButton";
 import Header from "../header/header";
 import Footer from "../footer/footer";
 
@@ -26,7 +23,7 @@ export default function Home() {
               <p className="carouselSmallText">A filipina owned business</p>
               <button>View menu</button>
             </div>
-            <img src="/allFood.jpeg" className="d-block" alt="..." />
+            <img style={{width: "100vw"}} src="/allFood.jpeg" className="d-block" alt="..." />
           </div>
           <div className="carousel-item">
             <div className="carousel-img">
@@ -40,6 +37,7 @@ export default function Home() {
               </div>
             </div>
             <img
+            style={{width: "100vw"}}
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
               className="d-block"
               alt="..."
@@ -79,6 +77,7 @@ export default function Home() {
               </div>
             </div>
             <img
+            style={{width: "100vw"}}
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
               className="d-block"
               alt="..."
@@ -119,6 +118,7 @@ export default function Home() {
               </div>
             </div>
             <img
+            style={{width: "100vw"}}
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
               className="d-block"
               alt="..."

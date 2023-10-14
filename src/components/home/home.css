@@ -424,7 +424,6 @@ p.right-item-innerText2 {
 }
 /* aboutPFTGDiv div styling */
 #aboutPFTGDiv {
-  background-image: url("/public/tacoPresentation.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
