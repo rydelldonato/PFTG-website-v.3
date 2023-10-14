@@ -604,6 +604,9 @@ div#curator-feed-default-feed-layout {
     width: 90%;
     letter-spacing: 2px;
   }
+  img.d-block {
+    height: 100%;
+  }
   #carousel-slide-3.d-flex {
     position: absolute;
     top: 12px;
