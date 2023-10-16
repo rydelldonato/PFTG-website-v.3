@@ -567,6 +567,9 @@ div#curator-feed-default-feed-layout {
   * {
     box-sizing: content-box;
   }
+  .mainNav li {
+    margin-left: 0px;
+  }
   .p-2 {
     padding: 0 !important;
   }

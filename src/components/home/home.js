@@ -242,17 +242,14 @@ export default function Home() {
         </div>
       </div>
       <div className="igFeed">
-        <h6>
-          <img src="3d-ig-logo.png" alt="igLogo" />
-          Peachy's Food To Go
-        </h6>
         <h1>Follow us on our Instagram</h1>
         <img id="zigzag" src="zigZag.png" />
-        <div id="curator-feed-default-feed-layout">
-          <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">
-            Powered by Curator.io
+        <h6>
+          <a href="https://www.instagram.com/peachysfoodtogollc/">
+          <img src="3d-ig-logo.png" alt="igLogo" />
+          Peachy's Food To Go
           </a>
-        </div>
+        </h6>
       </div>
       <div>
         <Footer />
