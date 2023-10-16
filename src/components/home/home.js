@@ -3,12 +3,10 @@ import "./home.css";
 import Header from "../header/header";
 import Footer from "../footer/footer";
 
-
 export default function Home() {
-
   return (
     <>
-    <Header />
+      <Header />
       <div
         id="carouselExampleControls"
         className="carousel slide carousel-fade"
@@ -23,11 +21,20 @@ export default function Home() {
               <p className="carouselSmallText">A filipina owned business</p>
               <button>View menu</button>
             </div>
-            <img style={{width: "100vw"}} src="/allFood.jpeg" className="d-block" alt="..." />
+            <img
+              style={{ width: "100vw" }}
+              src="/allFood.jpeg"
+              className="d-block"
+              alt="..."
+            />
           </div>
           <div className="carousel-item">
             <div className="carousel-img">
-              <img id="tacos" src="tacos.png" />
+              <img
+                style={{ width: 307, height: 240 }}
+                id="tacos"
+                src="sisigTacos.png"
+              />
             </div>
             <div className="carousel-text carousel-heading">
               <h1>Sisig Tacos</h1>
@@ -37,88 +44,49 @@ export default function Home() {
               </div>
             </div>
             <img
-            style={{width: "100vw"}}
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
               className="d-block"
               alt="..."
             />
           </div>
           <div className="carousel-item">
-            <div
-              id="carousel-slide-3"
-              className="d-flex flex-row justify-content-between"
-            >
-              <div className="left-item p-2">
-                <div className="left-item-innerText">
-                  <h1>Sisig Fries</h1>
-                  <p>
-                    An irresistible and flavorful fusion dish that combines two
-                    classis comfort foods - fries and sisig.
-                  </p>
-                </div>
-                <div>
-                  <p className="left-item-innerText2">
-                    Crispy, golden brown fries with a generous portion of the
-                    savory sisig mixture, sautéed with chopped onions,
-                    jalapeños, and seasonings to create a bold and bold taste.
-                  </p>
-                </div>
-                <div>
-                  <button type="button" className="btn btn-outline-light">
-                    Book now {">"}
-                  </button>
-                  <button type="button" className="btn btn-warning">
-                    View Menu {">"}
-                  </button>
-                </div>
-              </div>
-              <div className="right-item p-2">
-                <img src="fries.png" />
+            <div className="carousel-img">
+              <img style={{ width: 307, height: 240 }} src="sisigFries.jpeg" />
+            </div>
+            <div className="carousel-text carousel-heading">
+              <h1>Sisig Fries</h1>
+              <div className="carousel-text carousel-innerText">
+                An irresistible and flavorful fusion dish that combines two
+                classis comfort foods - fries and sisig.
               </div>
             </div>
             <img
-            style={{width: "100vw"}}
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
               className="d-block"
               alt="..."
             />
           </div>
           <div className="carousel-item">
-            <div
-              id="carousel-slide-5"
-              className="d-flex flex-row justify-content-between"
-            >
-              <div className="left-item p-2">
-                <img src="lumpia.png" />
-              </div>
-              <div className="right-item p-2">
-                <div className="right-item-innerText">
-                  <h1>Shanghai Lumpia</h1>
-                  <p>
-                    A true testament to the fusion of Eastern and Western
-                    flavors, married with the traditional flavors of Philippine
-                    cuisine.
-                  </p>
-                </div>
-                <div>
-                  <p className="right-item-innerText2">
-                    Succulent ground pork seasoned with aromatic spices and
-                    vegetables, wrapped in a thin and crispy wrapper, served
-                    with a sweet and tangy dipping sauce.
-                  </p>
-                </div>
-                <div className="bookViewButtons">
-                  <button type="button" className="btn btn-outline-light">
-                    Book now {">"}
-                  </button>
-                  <button type="button" className="btn btn-warning">
-                    View Menu {">"}
-                  </button>
-                </div>
+            <div className="carousel-img">
+              <img style={{ width: 307, height: 240 }} src="lumpia.jpeg" />
+            </div>
+            <div className="carousel-text carousel-heading">
+              <h1>Shanghai Lumpia</h1>
+              <div className="carousel-text carousel-innerText">
+                Succulent ground pork seasoned with aromatic spices and
+                vegetables, wrapped in a thin and crispy wrapper, served with a
+                sweet and tangy dipping sauce.
               </div>
             </div>
+            <div className="bookViewButtons">
+              <button type="button" className="btn btn-outline-light">
+                Book now {">"}
+              </button>
+              <button type="button" className="btn btn-warning">
+                View Menu {">"}
+              </button>
+            </div>
             <img
-            style={{width: "100vw"}}
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
               className="d-block"
               alt="..."
@@ -200,7 +168,8 @@ export default function Home() {
             <img src="/over-rice.png" />
             <h5>Sisig Over Rice</h5>
             <p className="popularItemsInfo">
-            Spicy, crispy diced or shredded pork/chicken, mixed with spices, onion, and vinegar, served over steaming hot rice.
+              Spicy, crispy diced or shredded pork/chicken, mixed with spices,
+              onion, and vinegar, served over steaming hot rice.
             </p>
             <p className="price">$ 15.00</p>
           </div>
@@ -208,7 +177,8 @@ export default function Home() {
             <img src="/bao.png" />
             <h5>Sisig Bao</h5>
             <p className="popularItemsInfo">
-            The flavors of Filipino sisig with the soft and fluffy steamed bao buns of Chinese cuisine.
+              The flavors of Filipino sisig with the soft and fluffy steamed bao
+              buns of Chinese cuisine.
             </p>
             <p className="price">$ 15.00</p>
           </div>
@@ -216,59 +186,76 @@ export default function Home() {
             <img src="/locomoco.png" />
             <h5>Loco Moco Lumpia</h5>
             <p className="popularItemsInfo">
-            Blends the classic Hawaiian Loco Moco, with the crispy and crunchy texture of traditional Filipino Lumpia, a delectable fried spring roll wrapper.
+              Blends the classic Hawaiian Loco Moco, with the crispy and crunchy
+              texture of traditional Filipino Lumpia, a delectable fried spring
+              roll wrapper.
             </p>
             <p className="price">$ 15.00</p>
           </div>
         </div>
       </div>
       <div id="aboutPFTGDiv">
-      <div className="aboutPFTGDiv">
-        <div className="d-flex flex-row aboutPFTGDivInnerDiv">
-          <div className="aboutPFTGDivLeft p-2">
-            <h1>
-              we are peachy's food to-go
-            </h1>
-            <h6>
-            We believe that food is a celebration of culture, and it is our goal to share our love for Filipino cuisine with each and every one of our customers.
-            </h6>
-            <img src="separator.png"/>
-            <p>
-            At Peachy's food to go, we are dedicated to bringing the authentic flavors and culinary traditions of the Philippines to your plate.
-            </p>
-            <p>
-            Our purpose is to preserve and promote the rich culinary heritage of the Philippines through authentic, delicious, and accessible food experiences. We are committed to continuously exploring new ways to showcase the rich and diverse flavors of the Philippines.
-            </p>
-          </div>
-          <div className="aboutPFTGDivRight p-2">
-            <p>
-              "The Sisig fries were so delicious! The special sauce that is added on top had such a unique taste and the flavors of the dish were so yummy. very great food..definitely recommend!!!!"
-            </p>
-            <div className="d-flex reviewDiv">
-            <img class="review" src="feReview.png"/>
-              Fe D<br></br>Doordash Review
+        <div className="aboutPFTGDiv">
+          <div className="d-flex flex-row aboutPFTGDivInnerDiv">
+            <div className="aboutPFTGDivLeft p-2">
+              <h1>we are peachy's food to-go</h1>
+              <h6>
+                We believe that food is a celebration of culture, and it is our
+                goal to share our love for Filipino cuisine with each and every
+                one of our customers.
+              </h6>
+              <img src="separator.png" />
+              <p>
+                At Peachy's food to go, we are dedicated to bringing the
+                authentic flavors and culinary traditions of the Philippines to
+                your plate.
+              </p>
+              <p>
+                Our purpose is to preserve and promote the rich culinary
+                heritage of the Philippines through authentic, delicious, and
+                accessible food experiences. We are committed to continuously
+                exploring new ways to showcase the rich and diverse flavors of
+                the Philippines.
+              </p>
             </div>
-            <p>
-              "The food here is amazing! I have never had any Filipino Fusion food as good as this! Highly Recommend!!"
-            </p>
-            <div className="d-flex reviewDiv">
-              <img className="review" src="adrizzyReview.png" />
-            Adrizzy P<br></br>Doorash Review
-            <div>
-            </div>
+            <div className="aboutPFTGDivRight p-2">
+              <p>
+                "The Sisig fries were so delicious! The special sauce that is
+                added on top had such a unique taste and the flavors of the dish
+                were so yummy. very great food..definitely recommend!!!!"
+              </p>
+              <div className="d-flex reviewDiv">
+                <img class="review" src="feReview.png" />
+                Fe D<br></br>Doordash Review
+              </div>
+              <p>
+                "The food here is amazing! I have never had any Filipino Fusion
+                food as good as this! Highly Recommend!!"
+              </p>
+              <div className="d-flex reviewDiv">
+                <img className="review" src="adrizzyReview.png" />
+                Adrizzy P<br></br>Doorash Review
+                <div></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
       <div className="igFeed">
-        <h6><img src="3d-ig-logo.png" alt="igLogo"/>Peachy's Food To Go</h6>
+        <h6>
+          <img src="3d-ig-logo.png" alt="igLogo" />
+          Peachy's Food To Go
+        </h6>
         <h1>Follow us on our Instagram</h1>
-        <img id="zigzag" src="zigZag.png"/>
-        <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+        <img id="zigzag" src="zigZag.png" />
+        <div id="curator-feed-default-feed-layout">
+          <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">
+            Powered by Curator.io
+          </a>
+        </div>
       </div>
       <div>
-      <Footer/>
+        <Footer />
       </div>
     </>
   );
