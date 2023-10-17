@@ -19,7 +19,13 @@ export default function Home() {
               <h3 className="h3">Discover the fusion of flavors:</h3>
               <h1 className="mb-4"> A journey through filipino cuisine</h1>
               <p className="carouselSmallText">A filipina owned business</p>
-              <button onClick={() => { window.location.href = "/menu"; }}>View menu</button>
+              <button
+                onClick={() => {
+                  window.location.href = "/menu";
+                }}
+              >
+                View menu
+              </button>
             </div>
             <img
               style={{ width: "100vw" }}
@@ -162,7 +168,7 @@ export default function Home() {
               A fusion of spicy Filipino pork/chicken and Mexican tacos, served
               on a tortilla with toppings like onion and cilantro.
             </p>
-            <p className="price">$ 15.00</p>
+            <p className="price">$ 12.99</p>
           </div>
           <div className="p-2">
             <img src="/over-rice.png" />
@@ -171,7 +177,7 @@ export default function Home() {
               Spicy, crispy diced or shredded pork/chicken, mixed with spices,
               onion, and vinegar, served over steaming hot rice.
             </p>
-            <p className="price">$ 15.00</p>
+            <p className="price">$ 13.99</p>
           </div>
           <div className="p-2">
             <img src="/bao.png" />
@@ -180,17 +186,16 @@ export default function Home() {
               The flavors of Filipino sisig with the soft and fluffy steamed bao
               buns of Chinese cuisine.
             </p>
-            <p className="price">$ 15.00</p>
+            <p className="price">$ 11.49</p>
           </div>
           <div className="p-2">
-            <img src="/locomoco.png" />
-            <h5>Loco Moco Lumpia</h5>
+            <img src="/banhmi.jpeg" />
+            <h5>Tocino Banh Mi</h5>
             <p className="popularItemsInfo">
-              Blends the classic Hawaiian Loco Moco, with the crispy and crunchy
-              texture of traditional Filipino Lumpia, a delectable fried spring
-              roll wrapper.
+              Chicken Tocino in a French-Vietnamese hybrid
+              consisting of an airy baguette with pickled veggies, cilantro drizzled with banana ketchup aioli.
             </p>
-            <p className="price">$ 15.00</p>
+            <p className="price">$ 10.75</p>
           </div>
         </div>
       </div>
@@ -246,8 +251,8 @@ export default function Home() {
         <img id="zigzag" src="zigZag.png" />
         <h6>
           <a href="https://www.instagram.com/peachysfoodtogollc/">
-          <img src="3d-ig-logo.png" alt="igLogo" />
-          Peachy's Food To Go
+            <img src="3d-ig-logo.png" alt="igLogo" />
+            Peachy's Food To Go
           </a>
         </h6>
       </div>
