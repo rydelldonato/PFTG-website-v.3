@@ -19,7 +19,7 @@ export default function Home() {
               <h3 className="h3">Discover the fusion of flavors:</h3>
               <h1 className="mb-4"> A journey through filipino cuisine</h1>
               <p className="carouselSmallText">A filipina owned business</p>
-              <button>View menu</button>
+              <button onClick={() => { window.location.href = "/menu"; }}>View menu</button>
             </div>
             <img
               style={{ width: "100vw" }}
