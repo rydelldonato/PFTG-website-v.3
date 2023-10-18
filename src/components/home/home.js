@@ -31,7 +31,7 @@ export default function Home() {
               style={{ width: "100vw" }}
               src="/allFood.jpeg"
               className="d-block"
-              alt="..."
+              alt="foodBackground"
             />
           </div>
           <div className="carousel-item">
@@ -40,6 +40,7 @@ export default function Home() {
                 style={{ width: 307, height: 240 }}
                 id="tacos"
                 src="sisigTacos.png"
+                alt="sisigTacos"
               />
             </div>
             <div className="carousel-text carousel-heading">
@@ -52,12 +53,12 @@ export default function Home() {
             <img
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
               className="d-block"
-              alt="..."
+              alt="woodBackground"
             />
           </div>
           <div className="carousel-item">
             <div className="carousel-img">
-              <img style={{ width: 307, height: 240 }} src="sisigFries.jpeg" />
+              <img alt="sisigFries" style={{ width: 307, height: 240 }} src="sisigFries.jpeg" />
             </div>
             <div className="carousel-text carousel-heading">
               <h1>Sisig Fries</h1>
@@ -69,12 +70,12 @@ export default function Home() {
             <img
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
               className="d-block"
-              alt="..."
+              alt="woodBackground"
             />
           </div>
           <div className="carousel-item">
             <div className="carousel-img">
-              <img style={{ width: 307, height: 240 }} src="lumpia.jpeg" />
+              <img alt="lumpia" style={{ width: 307, height: 240 }} src="lumpia.jpeg" />
             </div>
             <div className="carousel-text carousel-heading">
               <h1>Shanghai Lumpia</h1>
@@ -95,7 +96,7 @@ export default function Home() {
             <img
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
               className="d-block"
-              alt="..."
+              alt="woodBackground"
             />
           </div>
         </div>
@@ -127,7 +128,7 @@ export default function Home() {
       <div id="quickInfo">
         <div className="quickInfoDiv d-flex flex-row justify-content-center">
           <div className="p-2">
-            <img src="quality-food-logo.png" />
+            <img alt="qualityFoods" src="quality-food-logo.png" />
             <h3>Quality Foods</h3>
             <p className="shadow-lg p-3 mb-5 bg-body rounded opacity-75">
               Whether you're in the mood for a light snack or a hearty meal,
@@ -137,7 +138,7 @@ export default function Home() {
             </p>
           </div>
           <div className="p-2">
-            <img src="delivery-logo.png" />
+            <img alt="deliveryLogo" src="delivery-logo.png" />
             <h3>Fastest Delivery</h3>
             <p className="shadow-lg p-3 mb-5 bg-body rounded opacity-75">
               With its powerful technology and efficient delivery system,
@@ -148,7 +149,7 @@ export default function Home() {
             </p>
           </div>
           <div className="p-2">
-            <img src="tacos-logo.png" />
+            <img alt="tacosLogo" src="tacos-logo.png" />
             <h3>Original Recipes</h3>
             <p className="shadow-lg p-3 mb-5 bg-body rounded opacity-75">
               A Filipino-Mexican fusion small business offering a unique twist
@@ -162,7 +163,7 @@ export default function Home() {
         <div id="popularItemsHeading">Popular Items</div>
         <div className="popularItemsInnerDiv d-flex flex-row justify-content-evenly">
           <div className="p-2">
-            <img src="/tacos.png" />
+            <img alt="tacos" src="/tacos.png" />
             <h5>Sisig Tacos</h5>
             <p className="popularItemsInfo">
               A fusion of spicy Filipino pork/chicken and Mexican tacos, served
@@ -171,7 +172,7 @@ export default function Home() {
             <p className="price">$ 12.99</p>
           </div>
           <div className="p-2">
-            <img src="/over-rice.png" />
+            <img alt="sisigOverRice" src="/over-rice.png" />
             <h5>Sisig Over Rice</h5>
             <p className="popularItemsInfo">
               Spicy, crispy diced or shredded pork/chicken, mixed with spices,
@@ -180,7 +181,7 @@ export default function Home() {
             <p className="price">$ 13.99</p>
           </div>
           <div className="p-2">
-            <img src="/bao.png" />
+            <img alt="sisigBao" src="/bao.png" />
             <h5>Sisig Bao</h5>
             <p className="popularItemsInfo">
               The flavors of Filipino sisig with the soft and fluffy steamed bao
@@ -189,7 +190,7 @@ export default function Home() {
             <p className="price">$ 11.49</p>
           </div>
           <div className="p-2">
-            <img src="/banhmi.jpeg" />
+            <img alt="sisigBanhMi" src="/banhmi.jpeg" />
             <h5>Tocino Banh Mi</h5>
             <p className="popularItemsInfo">
               Chicken Tocino in a French-Vietnamese hybrid
@@ -209,7 +210,7 @@ export default function Home() {
                 goal to share our love for Filipino cuisine with each and every
                 one of our customers.
               </h6>
-              <img src="separator.png" />
+              <img alt="line" src="separator.png" />
               <p>
                 At Peachy's food to go, we are dedicated to bringing the
                 authentic flavors and culinary traditions of the Philippines to
@@ -230,7 +231,7 @@ export default function Home() {
                 were so yummy. very great food..definitely recommend!!!!"
               </p>
               <div className="d-flex reviewDiv">
-                <img class="review" src="feReview.png" />
+                <img alt="doordash review" class="review" src="feReview.png" />
                 Fe D<br></br>Doordash Review
               </div>
               <p>
@@ -238,7 +239,7 @@ export default function Home() {
                 food as good as this! Highly Recommend!!"
               </p>
               <div className="d-flex reviewDiv">
-                <img className="review" src="adrizzyReview.png" />
+                <img alt="doordashReview" className="review" src="adrizzyReview.png" />
                 Adrizzy P<br></br>Doorash Review
                 <div></div>
               </div>
@@ -248,7 +249,7 @@ export default function Home() {
       </div>
       <div className="igFeed">
         <h1>Follow us on our Instagram</h1>
-        <img id="zigzag" src="zigZag.png" />
+        <img alt="zigzag line" id="zigzag" src="zigZag.png" />
         <h6>
           <a href="https://www.instagram.com/peachysfoodtogollc/">
             <img src="3d-ig-logo.png" alt="igLogo" />
