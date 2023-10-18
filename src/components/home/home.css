@@ -424,11 +424,13 @@ p.right-item-innerText2 {
   line-height: 26px;
   letter-spacing: 3px;
   margin-bottom: 45px;
+  color: white;
 }
 .popularItemsInnerDiv p.popularItemsInfo {
   font-size: 16px;
   margin: 14px 0 18px 0;
   line-height: 28px;
+  color: white;
 }
 /* aboutPFTGDiv div styling */
 #aboutPFTGDiv {
@@ -575,7 +577,10 @@ div#curator-feed-default-feed-layout {
   }
   h1 {
     letter-spacing: 8px;
-    margin-bottom: 32px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 73px;
+    font-family: "PT Sans Narrow", sans-serif;
   }
   .logoPic {
     width: 35%;
@@ -710,7 +715,7 @@ div#curator-feed-default-feed-layout {
   .bookViewButtons {
     text-align: center;
     position: absolute;
-    top: 624px;
+    top: 158px;
     left: 72px;
   }
   .quickInfoDiv.d-flex {

@@ -1,0 +1,32 @@
+.mainContent{
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    margin-top: 84px;
+    margin-bottom: 50px;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+h2{
+    font-family: "Open Sans", sans-serif;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.serviceOptionDescription{
+    width: 379px;
+    height: 374px;
+    background-color: white;
+    border-radius: 50%;display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 5px
+}
+p{
+    color: #000;
+    font-family: "PT Sans Narrow", sans-serif;
+}
