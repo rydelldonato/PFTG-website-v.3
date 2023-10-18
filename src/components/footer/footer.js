@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="d-flex flex-row justify-content-center footer">
       <div className="d-flex flex-column innerFooter ">
         <div className="p-2">
-          <img className="footerLogo" src="headerLogo.png" />
+          <img alt="headerLogo" className="footerLogo" src="headerLogo.png" />
         </div>
         <div className="p-2">
             <p>+1 209 684 8664. M-W 12 - 6pm, TH-F 12 - 2pm</p>
@@ -15,19 +15,19 @@ export default function Footer() {
         <nav className="footerNav">
               <ul className="footerNav">
                 <li>
-                  <a href="#">home</a>
+                  <a href="/">home</a>
                 </li>
                 <li>
-                  <a href="#">menu</a>
+                  <a href="/menu">menu</a>
                 </li>
                 <li>
-                  <a href="#">services</a>
+                  <a href="/services">services</a>
                 </li>
                 <li>
-                  <a href="#">about</a>
+                  <a href="/about">about</a>
                 </li>
                 <li>
-                  <a href="#">contact</a>
+                  <a href="/contact">contact</a>
                 </li>
               </ul>
             </nav>
