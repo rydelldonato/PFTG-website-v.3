@@ -32,7 +32,7 @@ export default function Header() {
           <div className="centerHeader">
             <div className="logoDiv">
               <a href="index.html">
-                <img className="logoPic" src="/headerLogo.png" alt="" />
+                <img className="logoPic" src="/headerLogo.png" alt="logo pic" />
               </a>
             </div>
             <nav className="headerNav">
@@ -57,7 +57,7 @@ export default function Header() {
           </div>
           <div className="doordashDiv">
             <div className="innerDoordashDiv">
-              <img src="/5e8ce484664eae0004085467.png" alt="" />
+              <img src="/5e8ce484664eae0004085467.png" alt="doordash" />
             </div>
           </div>
         </div>

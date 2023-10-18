@@ -14,17 +14,17 @@ export default function Menu() {
       <div className="mainContent">
         <div id="deliveryProcess" className="d-flex flex-row">
           <div className="p-2">
-            <img src="order-icon.png" />
+            <img alt="order icon" src="order-icon.png" />
             <h5>Order Online</h5>
             <p>The restaurant will prepare your meal right away.</p>
           </div>
           <div className="p-2">
-            <img src="delivery-icon.png" />
+            <img alt="delivery icon" src="delivery-icon.png" />
             <h5>Track in realtime</h5>
             <p>A Dasher will pick up your order and bring it to you.</p>
           </div>
           <div className="p-2">
-            <img src="delivered-icon.png" />
+            <img alt="delivered icon" src="delivered-icon.png" />
             <h5>Enjoy your meal</h5>
             <p>Your meal, delivered in around 45 minutes.</p>
           </div>
@@ -33,7 +33,7 @@ export default function Menu() {
         <div>
           <div id="menu" className="d-flex flex-row">
             <div className="p-2">
-              <img src="fries.png" />
+              <img alt="fries" src="fries.png" />
               <h5>Sisig Fries</h5>
               <p className="menuInfo">
                 Shoestring fries topped with pork or chicken sautéed in onions,
@@ -44,7 +44,7 @@ export default function Menu() {
               <p className="menuInfo">$ 11.50</p>
             </div>
             <div className="p-2">
-              <img src="over-rice.png" />
+              <img alt="over rice" src="over-rice.png" />
               <h5>Sisig Over Rice</h5>
               <p className="menuInfo">
                 Garlic rice topped with pork or chicken sautéed in onions,
@@ -55,13 +55,13 @@ export default function Menu() {
               <p className="menuInfo">$ 13.99</p>
             </div>
             <div className="p-2">
-              <img src="lumpia.png" />
+              <img alt="lumpia" src="lumpia.png" />
               <h5>Sisig Fries (10 pcs)</h5>
               <p className="menuInfo">Ground pork with onions, garlic, cilantro and seasonings.</p>
               <p className="menuInfo">$ 8.99</p>
             </div>
             <div className="p-2">
-              <img src="tacos.png" />
+              <img alt="tacos" src="tacos.png" />
               <h5>Crispy Sisig Street Tacos (3 pcs)</h5>
               <p className="menuInfo">
                 Crispy deep fried street tacos corn tortillas with pork or
@@ -72,7 +72,7 @@ export default function Menu() {
               <p className="menuInfo">$ 12.99</p>
             </div>
             <div className="p-2">
-              <img src="banhmi.jpeg" />
+              <img alt="banh mi" src="banhmi.jpeg" />
               <h5>Tocino Banh Mi</h5>
               <p className="menuInfo">
                 Chicken Tocino (Filipino sweet meat) in a French-Vietnamese
@@ -83,7 +83,7 @@ export default function Menu() {
               <p className="menuInfo">$ 10.75</p>
             </div>
             <div className="p-2">
-              <img src="bao.png" />
+              <img alt="bao" src="bao.png" />
               <h5>Sisig Bao (2 pcs)</h5>
               <p className="menuInfo">
                 Steamed sweet dough bun stuffed with sisig (pork or chicken
