@@ -4,7 +4,7 @@ import React from "react";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Menu from "./components/menu/menu";
 import Services from "./components/services/services";
-
+import About from "./components/about/about";
 
 
 
@@ -20,6 +20,9 @@ function App() {
         </Routes>
         <Routes>
           <Route exact path="/services" element={<Services/>} />
+        </Routes>
+        <Routes>
+          <Route exact path="/about" element={<About/>} />
         </Routes>
       </div>
     </Router>

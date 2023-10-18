@@ -1,0 +1,39 @@
+.aboutTopDiv {
+    background-color: green;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutTopDivMainText{
+    font-family: 'Lato', cursive;
+    font-weight: bold;
+  }
+  .aboutTopDivCompanyName{
+    font-family: 'Patrick Hand', cursive;
+  }
+  
+  .centered-content {
+    text-align: center;
+  }
+  .aboutMiddleDiv{
+    background-color: white;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutBottomDiv{
+    background-color: red;
+    width: 100vw;
+    height: 57vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutBottomHalf{
+    height: 100vh;
+  }
+  
