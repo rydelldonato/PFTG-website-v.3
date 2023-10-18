@@ -16,6 +16,9 @@ div.mainContent {
   background-position: center;
   background-size: cover;
 }
+.menuInfo{
+  color: white;
+}
 .discoverOurMenu h1 {
   text-align: center;
   letter-spacing: 6px;
@@ -23,6 +26,7 @@ div.mainContent {
   line-height: 40px;
   font-family: "PT Sans Narrow";
   font-weight: 400;
+  margin-top: 0px;
 }
 .discoverOurMenuInnerDiv {
   background-color: rgba(104, 190, 104, 0.82);
@@ -50,6 +54,7 @@ div#deliveryProcess {
   font-family: "Open Sans";
   font-weight: 300;
   font-size: 16px;
+  color: white;
 }
 #deliveryProcess img {
   padding-bottom: 25px;
