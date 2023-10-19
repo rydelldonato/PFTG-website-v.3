@@ -7,27 +7,26 @@
     justify-content: center;
   }
   .aboutTopDivMainText{
-    font-family: 'Lato', cursive;
-    font-weight: bold;
+    font-family: 'SanFranciscoRounded-Semibold ';
   }
   .aboutTopDivCompanyName{
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'SanFranciscoDisplay-Regular ', cursive;
   }
   
   .centered-content {
     text-align: center;
+    margin: 20px;
+    color: white;
   }
   .aboutMiddleDiv{
-    background-color: white;
-    width: 100vw;
+    background-color: black;
     height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .aboutBottomDiv{
-    background-color: red;
-    width: 100vw;
+    background-color: black;
     height: 57vh;
     display: flex;
     align-items: center;
@@ -35,5 +34,6 @@
   }
   .aboutBottomHalf{
     height: 100vh;
+    background-color: black;
   }
   

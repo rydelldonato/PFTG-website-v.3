@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../header/header";
 import "./about.css";
+import Footer from "../footer/footer";
 
 export default function About() {
   return (
@@ -9,7 +10,7 @@ export default function About() {
       <div className="aboutTopDiv">
         <div>
           <text className="aboutTopDivMainText">
-            The Story Of{" "}
+            The Story Of
             <span
               className="aboutTopDivCompanyName"
             >
@@ -19,7 +20,7 @@ export default function About() {
         </div>
       </div>
       <div className="aboutBottomHalf">
-        <div className="aboutMiddleDiv">
+        <div className="aboutMiddleDiv centered-content">
           <div>
             <text>
               Maria “Peachy” Donato, Chef and Owner of Peachy's Food To Go, LLC
@@ -30,18 +31,18 @@ export default function About() {
             </text>
           </div>
         </div>
-        <div className="aboutBottomDiv">
-          <div>
+        <div className="aboutBottomDiv ">
+          <div className="centered-content">
             <video width="100%" height="auto" src="/ig-reel-bg.mp4"></video>
-            <text>
+            <text className="centered-content">
               Her intrigue in creating food lead her to produce Filipino fusion
               cuisine—her imagination and cleverness were well put together to
               make sure it left an amazing flavor on your palate.
             </text>
             <br></br>
-            <text>2023</text>
+            <text className="centered-content">2023</text>
             <br></br>
-            <text>
+            <text className="centered-content">
               Peachy has been a part of many pop-up events in the community,
               such as the inaugural Garlic Festival held in Stockton, wineries,
               food festivals, and school events. She also caters on the side.
@@ -49,6 +50,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
