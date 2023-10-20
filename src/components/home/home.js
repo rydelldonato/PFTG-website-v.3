@@ -58,7 +58,11 @@ export default function Home() {
           </div>
           <div className="carousel-item">
             <div className="carousel-img">
-              <img alt="sisigFries" style={{ width: 307, height: 240 }} src="sisigFries.jpeg" />
+              <img
+                alt="sisigFries"
+                style={{ width: 307, height: 240 }}
+                src="sisigFries.jpeg"
+              />
             </div>
             <div className="carousel-text carousel-heading">
               <h1>Sisig Fries</h1>
@@ -75,7 +79,11 @@ export default function Home() {
           </div>
           <div className="carousel-item">
             <div className="carousel-img">
-              <img alt="lumpia" style={{ width: 307, height: 240 }} src="lumpia.jpeg" />
+              <img
+                alt="lumpia"
+                style={{ width: 307, height: 240 }}
+                src="lumpia.jpeg"
+              />
             </div>
             <div className="carousel-text carousel-heading">
               <h1>Shanghai Lumpia</h1>
@@ -86,10 +94,23 @@ export default function Home() {
               </div>
             </div>
             <div className="bookViewButtons">
-              <button type="button" className="btn btn-outline-light">
-                Book now {">"}
+              <button
+                onClick={() => {
+                  window.location.href =
+                    "https://www.instagram.com/peachysfoodtogollc/?hl=en";
+                }}
+                type="button"
+                className="btn btn-outline-light"
+              >
+                Contact now {">"}
               </button>
-              <button type="button" className="btn btn-warning">
+              <button
+                onClick={() => {
+                  window.location.href = "/menu";
+                }}
+                type="button"
+                className="btn btn-warning"
+              >
                 View Menu {">"}
               </button>
             </div>
@@ -193,8 +214,9 @@ export default function Home() {
             <img alt="sisigBanhMi" src="/banhmi.jpeg" />
             <h5>Tocino Banh Mi</h5>
             <p className="popularItemsInfo">
-              Chicken Tocino in a French-Vietnamese hybrid
-              consisting of an airy baguette with pickled veggies, cilantro drizzled with banana ketchup aioli.
+              Chicken Tocino in a French-Vietnamese hybrid consisting of an airy
+              baguette with pickled veggies, cilantro drizzled with banana
+              ketchup aioli.
             </p>
             <p className="price">$ 10.75</p>
           </div>
@@ -239,7 +261,11 @@ export default function Home() {
                 food as good as this! Highly Recommend!!"
               </p>
               <div className="d-flex reviewDiv">
-                <img alt="doordashReview" className="review" src="adrizzyReview.png" />
+                <img
+                  alt="doordashReview"
+                  className="review"
+                  src="adrizzyReview.png"
+                />
                 Adrizzy P<br></br>Doorash Review
                 <div></div>
               </div>
