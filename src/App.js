@@ -16,7 +16,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
         </Routes>
         <Routes>
-          <Route exact path="https://peachysfoodtogo.netlify.app/menu" element={<Menu />} />
+          <Route exact path="/menu" element={<Menu />} />
         </Routes>
         <Routes>
           <Route exact path="/services" element={<Services/>} />
