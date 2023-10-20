@@ -36,7 +36,7 @@ export default function About() {
         </div>
         <div className="aboutBottomDiv ">
           <div className="centered-content">
-            <video width="100%" height="auto" src="/ig-reel-bg.mp4"></video>
+            <video autoPlay width="100%" height="auto" src="/ig-reel-bg.mp4" controls></video>
             <text className="centered-content">
               Her intrigue in creating food lead her to produce Filipino fusion
               cuisine—her imagination and cleverness were well put together to
