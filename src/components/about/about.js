@@ -6,11 +6,13 @@ import Footer from "../footer/footer";
 export default function About() {
   return (
     <>
+    <div style={{backgroundColor: "black"}}>
       <Header />
       <div className="aboutTopDiv">
         <div>
           <text className="aboutTopDivMainText">
             The Story Of
+            <br></br>
             <span
               className="aboutTopDivCompanyName"
             >
@@ -19,6 +21,7 @@ export default function About() {
           </text>
         </div>
       </div>
+      <hr className="horizontal-line" />
       <div className="aboutBottomHalf">
         <div className="aboutMiddleDiv centered-content">
           <div>
@@ -40,7 +43,7 @@ export default function About() {
               make sure it left an amazing flavor on your palate.
             </text>
             <br></br>
-            <text className="centered-content">2023</text>
+            <text className="centered-content date">2023</text>
             <br></br>
             <text className="centered-content">
               Peachy has been a part of many pop-up events in the community,
@@ -51,6 +54,7 @@ export default function About() {
         </div>
       </div>
       <Footer/>
+    </div>
     </>
   );
 }

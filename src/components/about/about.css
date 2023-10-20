@@ -8,9 +8,16 @@
   }
   .aboutTopDivMainText{
     font-family: 'SanFranciscoRounded-Semibold ';
+    font-size: 40px;
   }
   .aboutTopDivCompanyName{
     font-family: 'SanFranciscoDisplay-Regular ', cursive;
+    font-size: 32px;
+  }
+  .horizontal-line {
+    width: 100%;
+    border-top: 3px solid #82B77D;
+    box-shadow: 0 1px 2px 1px #82B77D;
   }
   
   .centered-content {
@@ -35,5 +42,8 @@
   .aboutBottomHalf{
     height: 100vh;
     background-color: black;
+  }
+  .date{
+    font-family: fantasy;
   }
   
