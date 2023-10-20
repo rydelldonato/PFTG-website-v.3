@@ -24,6 +24,10 @@
     text-align: center;
     margin: 20px;
     color: white;
+    font-family: 'SanFranciscoRounded-Semibold ';
+  }
+  .video{
+    padding-top: 191px;
   }
   .aboutMiddleDiv{
     background-color: black;
@@ -40,7 +44,7 @@
     justify-content: center;
   }
   .aboutBottomHalf{
-    height: 100vh;
+    height: 105vh;
     background-color: black;
   }
   .date{
