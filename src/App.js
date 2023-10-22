@@ -5,6 +5,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Menu from "./components/menu/menu";
 import Services from "./components/services/services";
 import About from "./components/about/about";
+import ScrollToTop from "./components/scrollToTop/scrollToTop";
 
 
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <ScrollToTop/>
         <Routes>
           <Route exact path="/" element={<Home />} />
         </Routes>
