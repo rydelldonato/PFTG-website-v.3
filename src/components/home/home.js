@@ -23,7 +23,7 @@ export default function Home() {
               <Link className="viewMenuButton" to="/menu">View menu</Link>
             </div>
             <img
-              style={{ width: "100vw" }}
+              style={{ width: "100%" }}
               src="/allFood.jpeg"
               className="d-block"
               alt="foodBackground"
