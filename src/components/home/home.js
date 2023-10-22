@@ -89,6 +89,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bookViewButtons">
+              <div style={{marginRight: 10}}>
               <button
                 onClick={() => {
                   window.location.href =
@@ -99,15 +100,15 @@ export default function Home() {
               >
                 Contact now {">"}
               </button>
-              <button
-                onClick={() => {
-                  window.location.href = "/menu";
-                }}
-                type="button"
-                className="btn btn-warning"
+              </div>
+              <div>
+              <Link
+                to="/menu"
+                className="viewMenuButton"
               >
                 View Menu {">"}
-              </button>
+              </Link>
+              </div>
             </div>
             <img
               src="https://demo-storage.com/pm/html/vincent/img/slide_1.jpg"
