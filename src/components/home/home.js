@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import Header from "../header/header";
 import Footer from "../footer/footer";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -19,13 +20,7 @@ export default function Home() {
               <h3 className="h3">Discover the fusion of flavors:</h3>
               <h1 className="mb-4"> A journey through filipino cuisine</h1>
               <p className="carouselSmallText">A filipina owned business</p>
-              <button
-                onClick={() => {
-                  window.location.href = "/menu";
-                }}
-              >
-                View menu
-              </button>
+              <Link className="viewMenuButton" to="/menu">View menu</Link>
             </div>
             <img
               style={{ width: "100vw" }}
