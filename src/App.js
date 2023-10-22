@@ -5,6 +5,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Menu from "./components/menu/menu";
 import Services from "./components/services/services";
 import About from "./components/about/about";
+import Contact from "./components/contact/contact";
 import ScrollToTop from "./components/scrollToTop/scrollToTop";
 
 
@@ -25,6 +26,9 @@ function App() {
         </Routes>
         <Routes>
           <Route exact path="/about" element={<About/>} />
+        </Routes>
+        <Routes>
+          <Route exact path="/contact" element={<Contact/>} />
         </Routes>
       </div>
     </BrowserRouter>
