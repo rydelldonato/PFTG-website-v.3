@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -9,28 +10,28 @@ export default function Footer() {
           <img alt="headerLogo" className="footerLogo" src="headerLogo.png" />
         </div>
         <div className="p-2">
-            <p>+1 209 684 8664. M-W 12 - 6pm, TH-F 12 - 2pm</p>
+          <p>+1 209 684 8664. M-W 12 - 6pm, TH-F 12 - 2pm</p>
         </div>
         <div className="p-2">
-        <nav className="footerNav">
-              <ul className="footerNav">
-                <li>
-                  <a href="/">home</a>
-                </li>
-                <li>
-                  <a href="/menu">menu</a>
-                </li>
-                <li>
-                  <a href="/services">services</a>
-                </li>
-                <li>
-                  <a href="/about">about</a>
-                </li>
-                <li>
-                  <a href="/contact">contact</a>
-                </li>
-              </ul>
-            </nav>
+          <nav className="footerNav">
+            <ul className="footerNav">
+              <li>
+                <Link to="/">home</Link>
+              </li>
+              <li>
+                <Link to="/menu">menu</Link>
+              </li>
+              <li>
+                <Link to="/services">services</Link>
+              </li>
+              <li>
+                <Link to="/about">about</Link>
+              </li>
+              <li>
+                <Link to="/contact">contact</Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>
