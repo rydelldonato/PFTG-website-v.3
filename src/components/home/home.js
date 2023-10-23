@@ -32,7 +32,6 @@ export default function Home() {
           <div className="carousel-item">
             <div className="carousel-img">
               <img
-                style={{ width: 307, height: 240 }}
                 id="tacos"
                 src="sisigTacos.png"
                 alt="sisigTacos"

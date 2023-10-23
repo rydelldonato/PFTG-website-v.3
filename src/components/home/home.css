@@ -201,6 +201,12 @@ h1 {
   margin-bottom: 70px;
   text-transform: uppercase;
 }
+.carousel-text h1{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
 div.carousel-text {
   width: 100%;
   letter-spacing: 2px;
@@ -222,11 +228,12 @@ div.carousel-text {
   text-align: center;
   left: 0;
   right: 0;
-  top: 80px;
   margin: auto;
 }
 img#tacos {
-  width: auto;
+  width: 30%;
+  padding-top: 57px;
+  margin-top: 0px;
 }
 /* Home page carousel styling for slide #3 */
 #carousel-slide-3.d-flex {
@@ -311,21 +318,16 @@ img.d-block {
   line-height: 32px;
   font-weight: 300;
 }
-.carousel-img {
-  position: absolute;
-  text-align: center;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
+
 .carousel-img img {
   width: 300px;
+  margin-top: 164px;
 }
 .bookViewButtons{
   display: flex;
   align-items: center;
   position: absolute;
-  top: 57vh;
+  top: 47vh;
   left: 37vw;
 }
 /* Home page carousel styling for slide #5 */
@@ -631,7 +633,9 @@ div#curator-feed-default-feed-layout {
     margin: auto;
   }
   img#tacos {
-    width: 100%;
+    width: 307px;
+    height: 240px;
+    padding-top:0%
   }
   div.carousel-text {
     width: 90%;
@@ -650,6 +654,14 @@ div#curator-feed-default-feed-layout {
   }
   #carousel-slide-3 {
     flex-direction: row !important;
+  }
+  .carousel-img {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 80px;
+    margin: auto;
   }
   .carousel-img img {
     width: 300px;
