@@ -17,8 +17,8 @@ export default function Home() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="innerCarouselDiv innerCarouselDiv1 shadow-lg">
-              <h3 className="h3">Discover the fusion of flavors:</h3>
-              <h1 className="mb-4"> A journey through filipino cuisine</h1>
+              <h3 className="h3">Filipino Fusion Food At Its Finest</h3>
+              <h1 className="mb-4">Discover The fusion of flavors</h1>
               <p className="carouselSmallText">A filipina owned business</p>
               <Link className="viewMenuButton" to="/menu">View menu</Link>
             </div>
@@ -38,7 +38,7 @@ export default function Home() {
               />
             </div>
             <div className="carousel-text carousel-heading">
-              <h1>Sisig Tacos</h1>
+              <h1 style={{paddingRight: '0px'}}>Sisig Tacos</h1>
               <div className="carousel-text carousel-innerText">
                 Blending together the bold flavors of Filipino cuisine with the
                 classic form of Mexican tacos.
@@ -59,7 +59,7 @@ export default function Home() {
               />
             </div>
             <div className="carousel-text carousel-heading">
-              <h1>Sisig Fries</h1>
+              <h1 style={{paddingRight: '0px'}}>Sisig Fries</h1>
               <div className="carousel-text carousel-innerText">
                 An irresistible and flavorful fusion dish that combines two
                 classis comfort foods - fries and sisig.
@@ -80,7 +80,7 @@ export default function Home() {
               />
             </div>
             <div className="carousel-text carousel-heading">
-              <h1>Shanghai Lumpia</h1>
+              <h1 style={{paddingRight: '0px'}}>Shanghai Lumpia</h1>
               <div className="carousel-text carousel-innerText">
                 Succulent ground pork seasoned with aromatic spices and
                 vegetables, wrapped in a thin and crispy wrapper, served with a
