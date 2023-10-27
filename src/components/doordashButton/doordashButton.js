@@ -9,7 +9,7 @@ export default function DoordashButton() {
         to={`https://www.doordash.com/store/peachy's-food-to-go-llc-stockton-24686955/`}
       >
         <button id="doordash">
-          Order Pickup & Delivery | M-W 12 - 6pm, TH-F 12 - 2pm
+          Order Pickup & Delivery | T-F 11am - 4pm
         </button>
       </Link>
     </>
