@@ -17,17 +17,9 @@ function App() {
         <ScrollToTop/>
         <Routes>
           <Route exact path="/" element={<Home />} />
-        </Routes>
-        <Routes>
           <Route exact path="/menu" element={<Menu />} />
-        </Routes>
-        <Routes>
           <Route exact path="/services" element={<Services/>} />
-        </Routes>
-        <Routes>
           <Route exact path="/about" element={<About/>} />
-        </Routes>
-        <Routes>
           <Route exact path="/contact" element={<Contact/>} />
         </Routes>
       </div>
