@@ -52,8 +52,8 @@ p {
         padding-right: 36px;
     }
     .serviceOptionDescription {
-        width: 372px;
-        height: 374px;
+        width: 89vw;
+        height: 50vh;
         background-color: white;
         border-radius: 50%;
         display: flex;
@@ -102,4 +102,28 @@ p {
         padding-right: 3px;
     }
     /* Other styles for mobile large */
+}
+
+/* Media query for mobile large (max-width: 425px) */
+
+@media (min-width: 1023px){
+.serviceOptionDescription{
+    width: 374px;
+    height: 374px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin-left: 0px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 }
