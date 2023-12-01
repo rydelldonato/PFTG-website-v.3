@@ -36,7 +36,6 @@ export default function About() {
             <div className="centered-content">
               <div className="video">
               <video
-                autoPlay
                 width="100%"
                 height="auto"
                 src="/ig-reel-bg.mp4"
