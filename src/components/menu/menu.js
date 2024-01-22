@@ -33,7 +33,7 @@ export default function Menu() {
         <div>
           <div id="menu" className="d-flex flex-row">
             <div className="p-2">
-              <img alt="fries" src="fries.png" />
+              <img alt="fries" src="sisigFries.png" />
               <h5>Sisig Fries</h5>
               <p className="menuInfo">
                 Shoestring fries topped with pork or chicken sautéed in onions,
@@ -56,7 +56,7 @@ export default function Menu() {
             </div>
             <div className="p-2">
               <img alt="lumpia" src="lumpia.png" />
-              <h5>Sisig Fries (10 pcs)</h5>
+              <h5>Lumpia (10 pcs)</h5>
               <p className="menuInfo">Ground pork with onions, garlic, cilantro and seasonings.</p>
               <p className="menuInfo">$ 8.99</p>
             </div>

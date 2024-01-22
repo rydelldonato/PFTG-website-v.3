@@ -430,7 +430,7 @@ p.right-item-innerText2 {
   font-family: "PT Sans Narrow";
 }
 .popularItemsInnerDiv img {
-  width: 100%;
+  width: 90%;
   padding-bottom: 40px;
 }
 .popularItemsInnerDiv h5 {
@@ -636,9 +636,9 @@ div#curator-feed-default-feed-layout {
     margin: auto;
   }
   img#tacos {
-    width: 307px;
-    height: 240px;
-    padding-top:0%
+    width: 264px;
+    height: 225px;
+    padding-top: 31%;
   }
   div.carousel-text {
     width: 90%;

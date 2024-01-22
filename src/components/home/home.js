@@ -33,7 +33,7 @@ export default function Home() {
             <div className="carousel-img">
               <img
                 id="tacos"
-                src="sisigTacos.png"
+                src="tacos.png"
                 alt="sisigTacos"
               />
             </div>
@@ -55,7 +55,7 @@ export default function Home() {
               <img
                 alt="sisigFries"
                 style={{ width: 307, height: 240 }}
-                src="sisigFries.jpeg"
+                src="sisigFries.png"
               />
             </div>
             <div className="carousel-text carousel-heading">
